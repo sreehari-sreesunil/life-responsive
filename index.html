@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- font links  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+
+     
+
+    <!-- header  main section-->
+    <div class="home position-relative">
+
+        <!-- menu clickon items  -->
+     <div class="menu-popup position-absolute">
+        <button onclick=hideMenu() class="closebtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+            </svg>
+        </button>
+        <div class="popup-contaienr">
+            <div class="search-bar-logo">
+                <img class="logo-img-menu" src="img/logo_global.png" width="358" height="200" alt="">
+                <form action="#">
+                    <input type="search" placeholder="Search">
+                    <img class="search-icon" src="img/search.svg" alt="">
+                </form>
+            </div>
+            <ul class="menu-list"> 
+                <li>Animal</li>
+                <li>arts & entertainment</li>
+                <li>destinations</li>
+                <li>history</li>
+                <li>lifestyle</li>
+                <li>nature</li>
+                <li>people</li>
+            </ul>
+            <div class="menu-list-right">
+                <ul class="menu-list-right-ph" style="padding: 0; list-style: none;"> 
+                    <li>photgraphers</li>
+                    <li>life newsletter</li>
+                    <li>the life picture collection</li>
+                </ul>
+                <div class="menu-social">
+                    <p>Follow Life</p>
+                    <ul class="menu-social-list" style="list-style: none; padding: 0;">
+                        <li><img src="img/instagram.svg" alt=""></li>
+                        <li><img src="img/pinterest.svg" alt=""></li>
+                        <li><img src="img/twitter.svg" alt=""></li>
+                        <li><img src="img/facebook.svg" alt=""></li>
+                    </ul>
+                </div>
+                <a class="latest-issue" href="#">
+                    <h6>latest issue</h6>
+                </a>
+            </div>
+           
+        </div>
+    </div>
+
+        <img class="banner" src="img/banner2.jpg" alt="">
+
+
+        <div class="toogle-bars position-absolute">
+            <!-- left side (menu)  -->
+             <div class="menu-toggle">
+                <button onclick=showMenu() class="menu-toggle-btn">
+                    <img src="img/menu.svg" alt="">
+                    MENU
+                </button>
+
+               
+             </div>
+            
+
+            <!-- right side  -->
+            <div class="right-side ">
+                <div>
+                    <img src="img/bag-shopping-solid.svg" alt="">
+                    <span>shop</span>
+                </div>
+                <div>
+                    <img src="img/mailbox.svg" alt="">
+                    <span>latest issue</span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- main logo  -->
+        <div class="logo-container position-absolute">
+            <img class="logo-img" src="img/logo_global.png" width="358" height="200" alt="">
+        </div>
+
+
+
+        <!-- center content  -->
+        <div class="center-side position-absolute">
+            <button>history</button>
+            <h1 id="center-title">
+                the logging life: sine down the river
+            </h1>
+        </div>
+    </div>
+
+
+
+    <!-- second onwards page margined section  -->
+    <div class="container-margin">
+
+        <div class="first-section">
+            <div class="first-card">
+                <img src="img/card-1.jpg" alt="">
+                <span>
+                    <a href="#">HISTORY</a>
+                </span>
+                <h3>
+                    The Logging Life: Gone Down the River
+                </h3>
+            </div>
+
+            <div class="first-card">
+                <img src="img/card2.jpg" alt="">
+                <span>
+                    <a href="#">animal</a>
+                </span>
+                <h3>
+                    Bears: Strong , Wise and Increasingly Amoung Us
+                </h3>
+            </div>
+
+            <div class="first-card">
+                <img src="img/card3.jpeg" alt="">
+                <span>
+                    <a href="#">HISTORY</a>
+                </span>
+                <h3>
+                    Canada's School on Wheels: A Teachers's Daughter Remembers
+                </h3>
+            </div>
+
+            <div class="first-card">
+                <img src="img/card4.jpg" alt="">
+                <span>
+                    <a href="#">UNCATEGORIZED</a>
+                </span>
+                <h3>
+                    Have LIFE'S Classic Photos in Your Home
+                </h3>
+            </div>
+
+            <div class="first-card">
+                <img src="img/card5.jpg" alt="">
+                <span>
+                    <a href="#">arts & entertainment</a>
+                </span>
+                <h3>
+                    Van Halen: The Dave Years, the Sammy Years the Life, the Music, and the Joy
+                </h3>
+            </div>
+
+            <div class="first-card">
+                <img src="img/card6.jpg" alt="">
+                <span>
+                    <a href="#">HISTORY</a>
+                </span>
+                <h3>
+                    'I Was in LIFE': Kim Novak Remembers
+                </h3>
+            </div>
+        </div>
+
+        <div class="second-section">
+            <h1>feature issue</h1>
+
+            <div class="feature-content">
+                <article>
+                    <h2>LIFE: James Taylor</h2>
+                    <p></p>
+                    <p>James Taylor has been the voice of baby boomers since the early 1970s when he began chronicling
+                        his struggles with life, love, and loss in hits such as Fire and Rain, You’ve Got a Friend and
+                        Sweet Baby James. The singer-songwriter not only left an imprint on the era’s music, he was a
+                        friend or muse to many of those who made it, from Crosby, Stills and Nash to the Beatles and
+                        Jackson Browne; from Joni Mitchell and Carole King to his first wife, Carly Simon.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        Today, Taylor remains a force on the recording scene, having sold more than 100 million albums,
+                        winning six Grammys and being inducted into the Rock and Roll Hall of Fame. He also continues to
+                        influence current hitmakers—pop phenomenon Taylor Swift was named for him—and perform around the
+                        world.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        This special edition of LIFE, with rare family and archival photos, tracks the rise of the man
+                        known to fans as JT, a beloved icon, and celebrates his achievements as an artist.
+                    </p>
+
+                    <button>
+                        Learn More
+                    </button>
+                </article>
+
+                <img src="img/james tylor.jpg" width="331" height="450" alt="">
+            </div>
+        </div>
+
+        <div class="third-section">
+            <h1>#LIFEPHOTO</h1>
+
+
+            <div class="life-photo row ">
+                <div class="photo-container col-12 p-0 position-relative">
+                    <img src="img/photo1.jpg" alt="">
+                    <div class="photo-messange position-absolute">
+                        <div class="photo-text">
+                            <p>"Walt Disney discusses his forthcoming film "Sleeping Beauty" durung an editing
+                                conference st his Burbank studio, 1953. "
+                                <br>
+                                <br>
+                                "For more behind-the-scenes moments from Disney (with fewer cigrattes!), tap the link in
+                                bio."
+                                <br>
+                                <br>
+                                (Alfred Eisenstaedt/LIFE picture Collection)"
+                                <br>
+                                <br>
+                                "#LIFEmagazine #LIFElegends #AlfredEisenstaedt #WaltDisney #cinemahistory"
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="photo-container col-12 p-0 position-relative">
+                    <img src="img/photo2.jpg" alt="">
+                    <div class="photo-messange position-absolute">
+                        <div class="photo-text">
+                            <p>
+                                Springtime in England with a small, sassy shepherd.
+                                <br>
+                                <br>
+                                (Mark Kauffman, 1949/LIFE picture collection/ @shutterstocknowarchive)
+                                <br>
+                                <br>
+                                #LIFEmagazine #wildLIFEwednesday #MarkKauffman #sheepofinstagram #springlambs
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="photo-container col-12 p-0 position-relative">
+                    <img src="img/photo3.jpg" alt="">
+                    <div class="photo-messange position-absolute">
+                        <div class="photo-text">
+                            <p>LIFE asked caroline Gutman, a photojournalist who has shot for the The New York Times and
+                                The Washington Post, to choode her favorite photos from the LIFE archive that speak to
+                                the changing role of women. To see more of her selects, tap the link in bio.
+                                <br>
+                                <br>
+                                Dot and Betty, mother-daughter member of the MOTOR MAIDS, riding motorcycles in New
+                                Hampshire, 1947.
+                                <br>
+                                <br>
+                                (Sam Shere/LIFE Picture Collection)
+                                <br>
+                                <br>
+                                #lifemagazine #1940sfashion @womenphotograph @carolinegutman #womenrides # motorcycle
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="fourth-section">
+            <h1>feature topics</h1>
+            <div class="fearture-topic-bg  " style="background-image:url(img/bg1.jpg);">
+                <a class="tag-name" href="">new york city</a>
+                <button>
+                    view more
+                </button>
+            </div>
+            <div class="fearture-topic-bg  " style="background-image:url(img/bg2.jpg);">
+                <a class="tag-name" href="">new york city</a>
+                <button>
+                    view more
+                </button>
+            </div>
+            <div class="fearture-topic-bg  " style="background-image:url(img/bg3.jpg);">
+                <a class="tag-name" href="">new york city</a>
+                <button>
+                    view more
+                </button>
+            </div>
+            <div class="fearture-topic-bg  " style="background-image:url(img/bg4.jpg);">
+                <a class="tag-name" href="">new york city</a>
+                <button>
+                    view more
+                </button>
+            </div>
+        </div>
+
+        <p class="contact-us ">Contact Us via Email – Copyright@Life.com</p>
+
+    </div>
+
+    <div class="subscribe" style="background-image: url(img/subscribe.jpg);">
+        <h2>Subcripe to the LIFE Newsletter</h2>
+        <p>Travel back in time with treasured photos and stories, sent right to your inbox</p>
+        <div>
+            <button>Join Today</button>
+        </div>
+    </div>
+
+    <footer>
+        <img class="footer-logo" src="img/logo_global.png" alt="">
+        <ul class="social">
+            <li><img src="img/instagram.svg" alt=""></li>
+            <li><img src="img/pinterest.svg" alt=""></li>
+            <li><img src="img/twitter.svg" alt=""></li>
+            <li><img src="img/facebook.svg" alt=""></li>
+        </ul>
+
+        <ul class="footer-nav">
+            <li>site map</li>
+            <li>privacy policy</li>
+            <li>terms of service</li>
+            <li>data policy</li>
+            <li>your privacy choices</li>
+        </ul>
+
+        <span>© 2024 LIFE All Rights Reserved.</span>
+    </footer>
+
+    <script src="js/bootstrap.js"></script>
+    <script>
+        function showMenu(){
+            const menu= document.querySelector('.menu-popup')
+            menu.style.display = 'block'
+        }
+
+        function hideMenu(){
+            const menu= document.querySelector('.menu-popup')
+            menu.style.display = 'none'
+        }
+    </script>
+</body>
+
+</html>
